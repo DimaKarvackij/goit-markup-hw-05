@@ -815,7 +815,7 @@ address {
 .form-telegram-email{
 padding-right: 24px;
 }
-.form-telegram-email {
+.form-label-telegram-user {
     width: 264px;
     height: 40px;
     border-radius: 4px;
@@ -830,10 +830,10 @@ padding-right: 24px;
     color: #ffffff;
 }
 .form-telegram-email::placeholder{
-    color:
+
 }
 .button-telegram{
-    display:block
+    display:flex;
 min-width:165px;
 }
 
