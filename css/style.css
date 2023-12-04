@@ -893,10 +893,7 @@ min-width:165px;
     background-color: #FCFCFC;
     border-radius: 4px;
     padding: 72px 24px 24px 24px;
-    box-shadow: 0px 1px 1px 
-    rgba(0, 0, 0, 0.14), 0px 1px 3px,
-     rgba(0, 0, 0, 0.12), 0px 2px 1px, 
-     rgba(0, 0, 0, 0.2); 
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2); 
      transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 .modele:hover,
@@ -1136,7 +1133,7 @@ border:none;
     padding: 16px 32px;
 }
 .checkbox-form{
-    color:#4d5ae5;;     
+    color:#4d5ae5;     
 }
 .rewu-form-submit-button{
     display:block;
@@ -1146,5 +1143,14 @@ border:none;
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
+    border: none;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.rewu-form-input-wrapper{
+    margin-bottom: 16px;
+}
+.bacgdrop-modele-svg:hover,
+.bacgdrop-modele-svg:focus{
+    border: none;
     border: none;
 }
