@@ -1075,6 +1075,8 @@ border:none;
 
 .rewu-form-chexbox:checked+.rewu-form-checkbox-label>.checkbox-form {
     fill: #F4F4FD;
+    border: none;
+    background-color:  #404bbf;
 }
 
 .rewu-form-chexbox:focus+.rewu-form-checkbox-label>.checkbox-form {
@@ -1132,4 +1134,17 @@ border:none;
     line-height: 1.5;
     letter-spacing: 0.04em;
     padding: 16px 32px;
+}
+.checkbox-form{
+    color:#4d5ae5;;     
+}
+.rewu-form-submit-button{
+    display:block;
+    min-width:169px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
 }
