@@ -902,10 +902,15 @@ min-width:165px;
 
 .bacgdrop-modele-svg-close {
     border-radius: 4px;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .bacgdrop-modele-svg {
-    position: flex;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0; 
+    position:absolute;
     top: 24px;
     right: 24px;
     width: 24px;
@@ -915,14 +920,21 @@ min-width:165px;
     border: none;
     margin: 8px;
     border-radius: 50%;
+    background-color: #e7e9fc;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    cursor:pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
 .bacgdrop-modele-svg-close:hover,
 .bacgdrop-modele-svg-close:focus {
-    stroke: #404BBF;
+   fill: #404BBF;
 
 }
-
+.bacgdrop-modele-svg:hover,
+.bacgdrop-modele-svg:focus{
+    background-color: #404bbf;
+}
 
 /*==============/// MODAL WINDOWS STYLES ///================*/
 
@@ -937,6 +949,7 @@ min-width:165px;
     /* 150% */
     letter-spacing: 0.02em;
     margin-bottom: 18px;
+    margin-bottom: 16px;
 }
 
 .rewu-form-input {
@@ -948,6 +961,7 @@ min-width:165px;
     padding-left: 38px;
     transition: border-color 250ms linear;
     outline: 0px solid transparent;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .rewu-form-vrapper {
