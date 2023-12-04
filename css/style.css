@@ -1155,9 +1155,9 @@ border:none;
     border: none;
 }
 .bacgdrop-modele-svg:hover,
-.bacgdrop-modele-svg:focus{
+.bacgdrop-modele-svg:focus {
     fill: #ffffff;
-    fill: #ffffff;
+   
 }
 .rewu-form-vrapper{
     margin-bottom: 8px;
@@ -1169,4 +1169,7 @@ border:none;
 }
 .svg-telegram{
     margin-left:16px;
+}
+.rewu-form-chexbox-wrapper{
+    margin-bottom: 16px;
 }
