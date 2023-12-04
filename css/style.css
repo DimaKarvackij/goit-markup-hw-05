@@ -1156,8 +1156,17 @@ border:none;
 }
 .bacgdrop-modele-svg:hover,
 .bacgdrop-modele-svg:focus{
-    fill: #ffffff
+    fill: #ffffff;
+    fill: #ffffff;
 }
 .rewu-form-vrapper{
-    margin-bottom: 16px;
+    margin-bottom: 8px;
+}
+.button-telegram{
+    font-family: "Roboto", sans-serif ;
+    cursor: pointer;
+    border: none; 
+}
+.svg-telegram{
+    margin-left:16px;
 }
