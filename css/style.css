@@ -870,8 +870,8 @@ min-width:165px;
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
-    transition: opacity 250ms linear,
-        visibility 250ms linear;
+     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+     
 }
 
 .bacgdrop.is-open {
@@ -885,14 +885,19 @@ min-width:165px;
 /*============== MODAL WINDOWS STYLES ================*/
 .modele {
     position: absolute;
-    top: 20%;
-    left: 38%;
-    transform: translateY(-50px, -50px);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1); 
     width: 408px;
     min-height: 584px;
     background-color: #FCFCFC;
     border-radius: 4px;
     padding: 72px 24px 24px 24px;
+    box-shadow: 0px 1px 1px 
+    rgba(0, 0, 0, 0.14), 0px 1px 3px,
+     rgba(0, 0, 0, 0.12), 0px 2px 1px, 
+     rgba(0, 0, 0, 0.2); 
+     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
 .bacgdrop-modele-svg-close {
@@ -900,9 +905,11 @@ min-width:165px;
 }
 
 .bacgdrop-modele-svg {
-    position: absolute;
+    position: flex;
     top: 24px;
     right: 24px;
+    width: 24px;
+    height: 24px; 
     stroke-width: 1px;
     stroke: rgba(0, 0, 0, 0.10);
     border: none;
