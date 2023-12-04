@@ -1131,7 +1131,7 @@ border:none;
     padding: 16px 32px;
 }
 .checkbox-form{
-      background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+      transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
       border: 1px solid rgba(46, 47, 66, 0.4);
      fill: transparent;
     }
@@ -1155,7 +1155,7 @@ border:none;
     border: none;
 }
 .bacgdrop-modele-svg:hover,
-.bacgdrop-modele-svg:focus {
+.bacgdrop-modele-svg:focus{
     fill: #ffffff;
    
 }
@@ -1177,7 +1177,7 @@ border:none;
 .rewu-form-chexbox-wrapper{
     margin-top: 24px;
 }
-.rewu-form-vrapper{
+.rewu{
     margin-bottom: 16px;
 
 }
