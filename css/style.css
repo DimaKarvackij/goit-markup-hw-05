@@ -899,12 +899,17 @@ min-width:165px;
      rgba(0, 0, 0, 0.2); 
      transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
-
+.modele:hover,
+.modele:focus{
+    fill:ffffff;
+}
 .bacgdrop-modele-svg-close {
     border-radius: 4px;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+.rewu-form-input-icon{
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .bacgdrop-modele-svg {
     display:flex;
     align-items: center;
@@ -930,6 +935,10 @@ min-width:165px;
 .bacgdrop-modele-svg-close:focus {
    fill: #404BBF;
 
+}
+.bacgdrop-modele-svg-close:hover,
+.bacgdrop-modele-svg-close:focus{
+border:none;
 }
 .bacgdrop-modele-svg:hover,
 .bacgdrop-modele-svg:focus{
